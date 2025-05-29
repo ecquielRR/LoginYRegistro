@@ -1,0 +1,22 @@
+body {
+	display: flex;
+	justify-content: space-around;
+}
+.registro, .login {
+	width: 400px;
+	margin:10px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	border: rgb(128, 128, 255) 5px outset;
+	align-items: center;
+	
+}
+
+.labels {
+	display: flex;
+	align-items: center;
+	padding: 5px;
+	gap: 10px;
+	
+}
